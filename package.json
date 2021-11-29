@@ -1,0 +1,22 @@
+{
+  "name": "albumserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1013.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.6",
+    "uuid": "^8.3.2"
+  }
+}
